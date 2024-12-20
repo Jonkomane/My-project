@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url("images/diamond.jpg");
+}
+
+header {
+    background: skyblue;
+    padding: 1rem 0;
+    text-align: center;
+    font-family: fantasy;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    color: white;
+    z-index: 10;
+    padding: 20px; 
+    display: flex;
+    align-items: center;
+    gap: 500px; 
+}
+
+header .logo {
+    width: 50px;
+    height: 50px;
+    justify-items: left;
+}
+h1 {
+    color: gold;
+}
+h2{
+    color: gold;
+}
+p {
+    color: gold;
+}
+.btn {
+    color: white;
+    border-style: groove;
+    text-decoration: none;
+    font-family: fantasy;
+}
+.btn:hover {
+    color: orange;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    color: blue;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: orange;
+    text-decoration: blink;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slides {
+    display: none;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    flex-shrink: 6px;
+}
+}
+
+.slides:first-child {
+    display: block;
+}
+
+.main {
+    padding: 2rem;
+    text-align: center;
+    justify-content: left;
+    list-style: var();
+    color: purple;
+}
+.main:hover {
+    color: gold;
+}
+.main label {
+    color: gold;
+}
+
+.brand {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.brand img {
+    width: 200px;
+    margin: 10px;
+    flex-shrink: 6px;
+}
+footer {
+    background-color: skyblue; /* Dark background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px; /* Small text size */
+}
+
+.socials {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; /* Center the icons */
+    gap: 20px; /* Space between icons */
+}
+
+.socials .icon {
+    width: 30px; /* Icon size */
+    height: 30px;
+    transition: transform 0.3s ease; /* Hover effect */
+}
+
+.socials .icon:hover {
+    transform: scale(1.2); /* Enlarge icons on hover */
+    filter: brightness(1.2); /* Make icons brighter */
+}
+/* General form styling */
+form {
+    background-color: skyblue; /* Light grey background */
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+    margin: 0 auto; /* Center the form */
+    font-family: Arial, sans-serif; /* Clean font */
+}
+
+/* Label styling (form prompts) */
+form label {
+    display: block; /* Ensure labels are above inputs */
+    color: #333; /* Dark grey text color */
+    font-weight: bold;
+    margin-bottom: 8px; /* Space between label and input */
+}
+
+/* Input and textarea styling */
+form input, form textarea {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin-bottom: 15px; /* Space between fields */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 8px;
+    font-size: 14px;
+    color: #555; /* Text color inside fields */
+}
+
+/* Placeholder text color */
+form input::placeholder, form textarea::placeholder {
+    color: #aaa; /* Light grey placeholder text */
+    font-style: italic; /* Optional: make placeholder text italic */
+}
+
+/* Button styling */
+form button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+form button:hover {
+    background-color: gold; /* Darker blue on hover */
+}
+
+
